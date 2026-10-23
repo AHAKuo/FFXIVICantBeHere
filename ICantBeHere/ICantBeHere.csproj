@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.1.0.0</Version>
+    <Author>ahadev</Author>
+    <Name>I Can't Be Here</Name>
+    <Punchline>Leave instances automatically as soon as the duty is complete.</Punchline>
+    <Description>I Can't Be Here leaves the duty for you the moment it is completed, after a grace period you choose.
+
+• Toggle it from the server info bar (left click), open settings with right click or /icantbehere.
+• Configurable grace period, so there is time to roll on loot or say goodbye.
+• Waits for cutscenes and combat to end before leaving.
+• The countdown shows in the server info bar; click it to stay this time.</Description>
+    <Tags>duty;leave;exit;instance;dungeon;raid;trial;roulette;dtr;quality-of-life;qol</Tags>
+    <RepoUrl>https://github.com/AHAKuo/FFXIVICantBeHere</RepoUrl>
+    <IconUrl>https://raw.githubusercontent.com/AHAKuo/FFXIVICantBeHere/main/images/icon.png</IconUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
